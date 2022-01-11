@@ -6,7 +6,6 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
@@ -17,10 +16,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 - Build out the project to the designs provided
 
-### Screenshot
 
-![desktop](https://i.postimg.cc/rp7rqJJK/desktop.png)
-![mobile](https://i.postimg.cc/tTPVJxSD/mobile.png)
 
 ## My process
 
