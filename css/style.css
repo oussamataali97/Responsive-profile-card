@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: cairo;
+}
+
+
+
+body{
+    
+    height: 100%;
+
+    background: url(../images/bg-pattern-top.svg) bottom -30rem left -20rem no-repeat, url(../images/bg-pattern-bottom.svg) top 20rem right -20rem no-repeat;
+  
+   
+    background-color: hsl(185, 75%, 39%);
+   
+}
+
+
+
+
+
+section{
+position: relative;
+}
+
+.card::before{
+    content:'';
+    background-image: url('../images/bg-pattern-card.svg');
+    background-size: cover;
+    
+    position: absolute;
+    width: 100%;
+    height: 115px;
+    top:0;
+    right: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    z-index: 1;
+}
+
+.card{
+    position: absolute;
+    top:50%;
+    right:50%;
+    transform: translate(50%,-50%);
+    max-height: 900px;
+    padding:4rem 6rem;
+    background:rgb(255, 247, 247);
+    border-radius: 15px;
+    width: 350px;
+    overflow-x: hidden;
+    
+
+}
+
+.infos::after{
+    content: '';
+    position: absolute;
+    border:1px solid rgb(211, 211, 211);
+    bottom:30%;
+    right: 0;
+   
+    width: 100%;
+    overflow-x: hidden;
+
+}
+
+.infos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+   
+}
+
+
+
+.infos img{
+    border-radius: 50%;
+    z-index: 99;
+    OUTLINE:5px solid whitesmoke;
+    margin-bottom: 1rem;
+}
+
+.infos p span {
+    font-weight: bold;
+   
+}
+
+.statistics {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: normal;
+    gap:50px;
+    margin-top:2rem;
+    margin-bottom: -2rem;   
+}
+
+.statistics h3{
+    font-weight: 400;
+    text-align: center;
+}
+
+.statistics span{
+    font-weight: bold;
+}
+
+.attribution {
+    text-align: center;
+    position: absolute;
+    bottom:0;
+    right: 50%;
+    transform: translateX(50%);
+    font-size: 1.3rem;
+}
+
+.attribution a {
+    text-decoration: none;
+    color:wheat;
+}
+
+.img-bottom img{
+width: 500px;
+max-height: 400px;
+position: absolute;
+bottom:0;right:0;
+}
+
+.img-top img{
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    top:-20%;left:0;
+    transform: rotate(18deg);
+    }
+
+    @media (max-width:768PX){
+        
+body{
+    
+    height: 100%;
+
+    background: url(../images/bg-pattern-top.svg) bottom -30rem left -45rem no-repeat, url(../images/bg-pattern-bottom.svg) top 17rem right -45rem no-repeat  ;
+  
+   
+    background-color: hsl(185, 75%, 39%);
+   
+}
+    }
+    
